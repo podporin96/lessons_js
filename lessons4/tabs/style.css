@@ -1,0 +1,48 @@
+h1 {
+    width: 100%;
+    text-align: center;
+}
+.tabs-block-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+#tabs, #underTabs {
+    display: flex;
+}
+.tab-btn, .tab-btnnew {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.tab-btn.active, .tab-btnnew.active {
+    background-color: blue;
+    color: #ffffff;
+}
+
+#contents, #undercontents {
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
+
+#undercontents {
+    border: none;
+    height: 100%;
+}
+
+.content, .undercontent {
+    display: none;
+}
+
+.content.active, .undercontent.active {
+    display: block;
+}
